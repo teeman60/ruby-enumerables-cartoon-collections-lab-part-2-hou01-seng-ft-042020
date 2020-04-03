@@ -24,5 +24,5 @@ def find_valid_calls(planeteer_calls)
     if ele == valid_calls.each {|e| e}
       ele
     end
-  end    
+  end
 end
