@@ -26,7 +26,7 @@ def find_valid_calls(planeteer_calls)
     i = 0
     while i < valid_calls.length
       if planeteer_calls[ind] == valid_calls[i]
-        valid_calls[i]
+        return valid_calls[i]
       end
       i += 1
     end
