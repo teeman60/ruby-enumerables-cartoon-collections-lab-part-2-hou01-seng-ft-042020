@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   ind = 0
   while ind < planeteer_calls.length
-  
+
     i = 0
     while i < valid_calls.length
       if planeteer_calls[ind] == valid_calls[i]
