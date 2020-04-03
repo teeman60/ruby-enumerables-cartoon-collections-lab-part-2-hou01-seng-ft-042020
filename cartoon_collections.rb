@@ -26,6 +26,7 @@ def find_valid_calls(planeteer_calls)
       if ele == valid_calls[i]
         ele
       end
+      i += 1
     end
   end
 end
